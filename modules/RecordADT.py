@@ -1,7 +1,7 @@
 # you have to have installed nltk, spacy and pretrained model en_ner_bc5cdr_md locally.
 
 import re
-from modules.linkedQueue import LinkedQueue
+from linkedQueue import LinkedQueue
 import csv
 import os
 import nltk
@@ -36,7 +36,7 @@ class RecordADT:
         self.patient.append(self.get_patient_id())
         self.patient.append(self.get_admission_date())
         self.patient.append(self.get_discharge_date())
-        self.patient.append(self.get_gender())
+        self.patient.append({"GENDER": self.get_gender()})
         self.patient.append(self.get_age())
         self.patient.append(self.get_diagnosis())
         self.patient.append(self.get_medications())
@@ -102,7 +102,7 @@ class RecordADT:
         RecordADT -> dct
         Method for extracting gender of a patient.
         '''
-        return {"GENDER": list(set(self.simple_gender(self.general_data)))} or {"GENDER": list(set(self.gender_from_word(self.general_data)))}
+        return list(set(self.simple_gender(self.general_data))) or list(set(self.gender_from_word(self.general_data)))
 
     def get_patient_id(self):
         '''

@@ -1,7 +1,7 @@
 # you have to have installed nltk, spacy and pretrained model en_ner_bc5cdr_md locally.
 
 import re
-from linkedQueue import LinkedQueue
+from modules.linkedQueue import LinkedQueue
 import csv
 import os
 import nltk

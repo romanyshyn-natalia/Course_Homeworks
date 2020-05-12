@@ -17,13 +17,24 @@ The results of the program are written to a json file with named entities as key
 Also, it is an example of Exploratary Analysis of extracted medical information with interective plots and graphs. 
 You can try it or just use extracted dataset for your own research work.
 All the information about the process of developing that project and research is available on the project's wiki.
-<br>
-Table of Contents::  
--------------
-* [Homework0](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework0) 
-* [Homework1](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework1)       
-* [Homework2](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework2)  
-* [Homework3](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework3)
-* [Homework4](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework4)
-* [Homework5](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework5)
 
+# Table of Contents:
+
+Wiki pages:                                                                          |
+------------------------------------------------------------------------------------ |
+  [Homework0](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework0) |
+  [Homework1](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework1) |     
+  [Homework2](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework2) |
+  [Homework3](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework3) |
+  [Homework4](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework4) |
+  [Homework5](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework5) |
+
+
+## Usage:
+
+## Example:
+
+## Instalattion:
+
+## Credits:
+* Natalia Romanyshyn, Ukrainian Catholic University, 2020

@@ -26,6 +26,10 @@ Wiki pages:                                                                     
   [Homework3](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework3) |
   [Homework4](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework4) |
   [Homework5](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework5) |
+  
+  ### Main modules:
+  * [RecordADT.py](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/RecordADT.py) - realised abstarct data type for extracting named entities, based on [linkedQueue.py](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/linkedQueue.py) and [abstarct_collection.py](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/abstract_collection.py).
+  * [data_analysis.ipynb](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/data_analysis.ipynb) with my example of exploring collected medical information, due to the fact that there are interactive plots, you have to switch to nbviewer on GitHub to fully play with charts.
 
 ## Data:
 For this program use n2c2 NLP Research Data Sets, it is unstructured notes from the Research Patient Data Repository at Partners Healthcare. Datasets are free to use, but you have to get access to it, [register here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/). 
@@ -35,13 +39,27 @@ Input Data is raw, unstructured medical report in plaintext format. Some example
 Output data is json file with extracted entities, check for [example](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/tests/report1.json).
 
 ## Usage:
-There are two main usage purposes of this project:
-* actual extracting named entities for your reports, which produce easy and fast method for getting needed informatio.
-* using extracted dataset for your own research in medical field or whatever reason, you are free to use 
+There are two main usage purposes for this project:
+* actual extracting named entities for your reports, which produce an easy and fast method for getting needed information.
+* using extracted dataset for your own research in the medical field or whatever reason, you are free to use data extracted by me, it is available [here](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/results.csv) 
 
 ## Example:
+You can test my program using the Python module and report example, that is located at the test folder. After running the main program you will obtain extracted [results](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/tests/report1.json) in json file.
+Also, you are highly welcomed to look through my result's dataset exploring:
+1) With the help of this pie chart, I obtained a general gender distribution among patients in a convenient visual format:
+![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/gender_distribution.png)  
+2) Also, interesting for me was age distrubution among male and female patients:
+![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/age_by_gender.png)
+3) The most valuable information is the most common diseases and accordingly medications that can cure or alleviate it:
+![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/common_diseases.png)
+![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/most_common_drugs.png)
 
 ## Instalattion:
+All required Python libs are available in [requirements.txt](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/requirements.txt). So, for running this program you have to type in your cmd:
+```
+pip install requirements.txt
+```
+Need to admit, that you are supposed  to install `sciSpacy` lib's model `en_ner_bc5cdr_md`, using provided [link](https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_bc5cdr_md-0.2.4.tar.gz).
 
 ## Credits:
 * Natalia Romanyshyn, Ukrainian Catholic University, 2020

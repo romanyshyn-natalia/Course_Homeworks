@@ -11,8 +11,7 @@ The MEDex aims to process raw medical reports and extract specific named entitie
 * Gender
 * Medications
 * Diseases
-<br>
-The results of the program are written to a json file with named entities as keys and lists with extracted data. 
+
 <br>
 The results of the program are written to a json file with named entities as keys and lists with extracted data.
 Also, there is an example of Exploratory Analysis of extracted medical information with interactive plots and charts. You can try it or just use extracted dataset for your own research work. All the information about the process of developing that project and research is available on the project's wiki. 

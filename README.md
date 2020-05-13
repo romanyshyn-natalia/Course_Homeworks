@@ -29,7 +29,7 @@ Wiki pages:                                                                     
   
   ### Main modules:
   * [RecordADT.py](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/RecordADT.py) - realised abstarct data type for extracting named entities, based on [linkedQueue.py](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/linkedQueue.py) and [abstarct_collection.py](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/abstract_collection.py).
-  * [data_analysis.ipynb](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/data_analysis.ipynb) with my example of exploring collected medical information, due to the fact that there are interactive plots, you have to switch to nbviewer on GitHub to fully play with charts.
+  * [data_analysis.ipynb](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/data_analysis.ipynb) notebook with my example of exploring collected medical information, due to the fact that there are interactive plots, you have to switch to nbviewer on GitHub to fully play with charts.
 
 ## Data:
 For this program use n2c2 NLP Research Data Sets, it is unstructured notes from the Research Patient Data Repository at Partners Healthcare. Datasets are free to use, but you have to get access to it, [register here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/). 

@@ -27,6 +27,12 @@ Wiki pages:                                                                     
   [Homework4](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework4) |
   [Homework5](https://github.com/romanyshyn-natalia/Course_Homeworks/wiki/Homework5) |
 
+## Data:
+For this program use n2c2 NLP Research Data Sets, it is unstructured notes from the Research Patient Data Repository at Partners Healthcare. Datasets are free to use, but you have to get access to it, [register here](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/). 
+<br>
+Input Data is raw, unstructured medical report in plaintext format. Some examples of medical reports you can [find](https://github.com/romanyshyn-natalia/Course_Homeworks/tree/master/docs) at this folder. 
+<br>
+Output data is json file with extracted entities, check for [example](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/tests/report1.json).
 
 ## Usage:
 

@@ -35,6 +35,9 @@ Input Data is raw, unstructured medical report in plaintext format. Some example
 Output data is json file with extracted entities, check for [example](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/tests/report1.json).
 
 ## Usage:
+There are two main usage purposes of this project:
+* actual extracting named entities for your reports, which produce easy and fast method for getting needed informatio.
+* using extracted dataset for your own research in medical field or whatever reason, you are free to use 
 
 ## Example:
 

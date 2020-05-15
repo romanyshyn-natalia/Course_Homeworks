@@ -1,5 +1,5 @@
 import json
-from RecordADT import RecordADT
+from modules.RecordADT import RecordADT
 
 
 def read_reports(filename):

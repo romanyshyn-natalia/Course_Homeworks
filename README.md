@@ -54,7 +54,7 @@ Also, you are highly welcomed to look through my result's dataset exploring:
 ![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/common_diseases.png)
 ![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/most_common_drugs.png)
 
-## Instalattion:
+## Installation:
 All required Python libs are available in [requirements.txt](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/requirements.txt). So, for running this program you have to type in your cmd:
 ```
 pip install requirements.txt

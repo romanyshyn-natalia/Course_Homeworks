@@ -1,5 +1,7 @@
 import json
 from RecordADT import RecordADT
+import logging 
+from flask import Flask, render_template
 
 
 def read_reports(filename):
@@ -27,7 +29,20 @@ def main():
         print("Find a json with extracted entities in your working directory.")
     except FileNotFoundError:
         print("You need to pass valid path!")
-
 main()
+
+# app = Flask(__name__)
+# # app.route('/')
+# # def homepage():
+# #     return "Hello, doctor!"
+
+# # if __name__ == "__main__":
+# #     app.run(host='127.0.0.1', port=8080, debug=False)
+# @app.route("/")
+# def main():
+#     return render_template('index.html')
+
+# if __name__ == "__main__":
+#     app.run()
    
 

@@ -1,6 +1,6 @@
 # class implementation is based on Data Structures and Algorithms Using Python – R. Necaise
 
-from modules.abstract_collection import Node, AbstractCollection
+from abstract_collection import Node, AbstractCollection
 
 
 class LinkedQueue(AbstractCollection):

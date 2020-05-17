@@ -1,7 +1,7 @@
 # you have to have installed nltk, spacy and pretrained model en_ner_bc5cdr_md locally.
 
 import re
-from modules.linkedQueue import LinkedQueue
+from linkedQueue import LinkedQueue
 import csv
 import os
 import nltk
@@ -36,7 +36,7 @@ class RecordADT:
         self.patient.append(self.get_patient_id())
         self.patient.append(self.get_admission_date())
         self.patient.append(self.get_discharge_date())
-        self.patient.append({"GENDER": self.get_gender()})
+        self.patient.append(self.get_gender())
         self.patient.append(self.get_age())
         self.patient.append(self.get_diagnosis())
         self.patient.append(self.get_medications())
@@ -49,33 +49,33 @@ class RecordADT:
 
     def get_admission_date(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Returns dates of admission.
         '''
         pattern = re.compile(r"Admission Date: (\d{1,2}/\d{1,2}/\d{1,4})")
-        return {'AD': pattern.findall(self.general_data)}
+        return pattern.findall(self.general_data)
 
     def get_discharge_date(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Returns dates of discharge.
         '''
         pattern = re.compile(r"Discharge Date: (\d{1,2}/\d{1,2}/\d{1,4})")
-        return {'DD': pattern.findall(self.general_data)}
+        return pattern.findall(self.general_data)
 
     def get_age(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Returns the age of patients.
         '''
         pattern = re.compile(r"(\d{1,2}-?\s?year[s]?-?\s?old)")
         res = list(set(pattern.findall(self.general_data)))
-        return {'AGE': res}
+        return res
 
     @staticmethod
     def simple_gender(data):
         '''
-        str -> lst
+        str -> list
         Returns the gender of a patient.
         '''
         pattern = re.compile(r"(female|male)")
@@ -84,7 +84,7 @@ class RecordADT:
     @staticmethod
     def gender_from_word(data):
         '''
-        str -> lst
+        str -> list
         Additional function for gettig a gender of patient in case it wasn't strictly mentioned in a record.
         '''
         res = set()
@@ -99,23 +99,23 @@ class RecordADT:
 
     def get_gender(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Method for extracting gender of a patient.
         '''
         return list(set(self.simple_gender(self.general_data))) or list(set(self.gender_from_word(self.general_data)))
 
     def get_patient_id(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Extracts patients ID.
         '''
         pattern = re.compile(
             r"\|\s\d+\s\|\s\|\s(\d+)\s\|\s\d{1,2}/\d{1,2}/\d{1,4}")
-        return {"ID": pattern.findall(self.general_data)}
+        return pattern.findall(self.general_data)
 
     def preprocessing(self):
         '''
-        RecordADT -> str
+        RecordADT -> list
         Extracts sections with Diagnosis and Medications from raw text.
         '''
         res = []
@@ -154,17 +154,17 @@ class RecordADT:
 
     def get_medications(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Method for getting extracted medications.
         '''
-        return {"MEDICATIONS": [x for (x, y) in self.display_entities() if y == 'CHEMICAL']}
+        return [x for (x, y) in self.display_entities() if y == 'CHEMICAL']
 
     def get_diagnosis(self):
         '''
-        RecordADT -> dct
+        RecordADT -> list
         Method for getting extracted diagnosis.
         '''
-        return {"DIAGNOSIS": [x for (x, y) in self.display_entities() if y == 'DISEASE']}
+        return [x for (x, y) in self.display_entities() if y == 'DISEASE']
 
     def __iter__(self):
         '''

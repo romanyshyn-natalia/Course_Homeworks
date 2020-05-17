@@ -57,6 +57,8 @@ Also, you are highly welcomed to look through my result's dataset exploring:
 ## Installation:
 All required Python libs are available in [requirements.txt](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/requirements.txt). So, for running this program you have to type in your cmd:
 ```
+git clone https://github.com/romanyshyn-natalia/Course_Homeworks.git
+cd Course_Homeworks
 pip install requirements.txt
 ```
 Need to admit, that you are supposed  to install `sciSpacy` lib's model `en_ner_bc5cdr_md`, using provided [link](https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_bc5cdr_md-0.2.4.tar.gz).

@@ -36,7 +36,7 @@ For this program use n2c2 NLP Research Data Sets, it is unstructured notes from 
 <br>
 Input Data is raw, unstructured medical report in plaintext format. Some examples of medical reports you can [find](https://github.com/romanyshyn-natalia/Course_Homeworks/tree/master/docs) at this folder. 
 <br>
-Output data is json file with extracted entities, check for [example](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/tests/report1.json).
+Output data is json file with extracted entities, check for [example](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/report1.json).
 
 ## Usage:
 There are two main usage purposes for this project:

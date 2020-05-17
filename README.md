@@ -44,7 +44,7 @@ There are two main usage purposes for this project:
 * using extracted dataset for your own research in the medical field or whatever reason, you are free to use data extracted by me, it is available [here](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/results.csv) 
 
 ## Example:
-You can test my program using the Python [module](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/main.py)  and [report](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/976089) example, that is located at this [folder](https://github.com/romanyshyn-natalia/Course_Homeworks/tree/master/modules). After running the main program you will obtain extracted [results](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/tests/report1.json) in json file.
+You can test my program using the Python [module](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/main.py)  and [report](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/976089) example, that is located at this [folder](https://github.com/romanyshyn-natalia/Course_Homeworks/tree/master/modules). After running the main program you will obtain extracted [results](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/modules/report1.json) in json file.
 Also, you are highly welcomed to look through my result's dataset exploring:
 1) With the help of this pie chart, I obtained a general gender distribution among patients in a convenient visual format:
 ![](https://github.com/romanyshyn-natalia/Course_Homeworks/blob/master/docs/gender_distribution.png)  

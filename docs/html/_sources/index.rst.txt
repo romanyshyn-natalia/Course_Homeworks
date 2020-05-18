@@ -1,0 +1,27 @@
+
+Welcome to medEX's documentation!
+=================================
+
+.. automodule:: medmod.abstract_collection
+    :members:
+.. automodule:: medmod.linkedQueue
+    :members:
+.. automodule:: medmod.RecordADT
+    :members:
+.. automodule:: medmod.main
+    :members:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+   
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

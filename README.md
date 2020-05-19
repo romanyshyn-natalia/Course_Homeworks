@@ -69,5 +69,6 @@ Need to admit, that you are supposed  to install `sciSpacy` lib's model `en_ner_
 
 ## Credits:
 * Natalia Romanyshyn, Ukrainian Catholic University, 2020
+<br>
 Here is a small [video](https://www.youtube.com/watch?v=eiuQJZPa_Cg&rel=0&utm_source=broadcast&utm_medium=email&utm_campaign=Transactional-Publish-success) presentation!
 

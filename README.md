@@ -60,7 +60,7 @@ All required Python libs are available in [requirements.txt](https://github.com/
 git clone https://github.com/romanyshyn-natalia/Course_Homeworks.git
 cd Course_Homeworks
 pip install requirements.txt
-python3 main.py
+python3 modules/main.py
 Enter path to patient report (e.g. 976089): 976089   
 It may last 27 seconds.
 Find a json with extracted entities in your working directory.

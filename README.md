@@ -61,9 +61,7 @@ git clone https://github.com/romanyshyn-natalia/Course_Homeworks.git
 cd Course_Homeworks
 pip install requirements.txt
 python modules/main.py
-Enter path to patient report (e.g. 976089): 976089   
-It may last 27 seconds.
-Find a json with extracted entities in your working directory.
+Enter path to patient report (e.g. 976089): 
 ```
 Need to admit, that you are supposed  to install `sciSpacy` lib's model `en_ner_bc5cdr_md`, using provided [link](https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_ner_bc5cdr_md-0.2.4.tar.gz).
 

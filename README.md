@@ -1,4 +1,4 @@
-# Project_name: MEDex
+# Project_name: medEX
 Final project of Programming Basics course at Ukrainian Catholic University.
 # Description:
 With the rapid growth of electronic health records (EHRs), it is wonderful that we are able to collect information and knowledge from EHRs to support automated systems at the point of care and to enable secondary use of EHRs for clinical research.
